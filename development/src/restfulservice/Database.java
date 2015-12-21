@@ -52,26 +52,17 @@ public class Database {
   }
   
   private void setTestData() {
-    Action action1 = new Action(
-      "id1",
-      "description1",
-      1
-    );
-    
-    Action action2 = new Action(
-      "id2",
-      "description2",
-      2
-    );
-    
-    Action action3 = new Action(
-      "id3",
-      "description3",
-      3
-    );
-    
+    Action action1 = new Action("Ecrire une lettre d'amour", "Ecrire une lettre d'amour", 80);
+    Action action2 = new Action("Preparer un bain romantique surprise", "Preparer un bain romantique surprise", 60);
+    Action action3 = new Action("Preparer un petit dejeuner au lit", "Preparer un petit dejeuner au lit", 30);
+    Action action4 = new Action("Preparer un diner aux chandelles surprise", "Preparer un diner aux chandelles surprise", 60);
+    Action action5 = new Action("Offrir une carte d'amour geante", "Offrir une carte d'amour geante", 50);
+    Action action6 = new Action("Laisser des petits mots amoureux un peu partout dans la maison", "Laisser des petits mots amoureux un peu partout dans la maison", 40);
     actionList.add(action1);
     actionList.add(action2);
     actionList.add(action3);
+    actionList.add(action4);
+    actionList.add(action5);
+    actionList.add(action6);
   }
 }
